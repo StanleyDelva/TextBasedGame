@@ -2,7 +2,7 @@
 1454505139 source:c:\users\young\desktop\github programs\game\txtbasedgame\main.cpp
 	<iostream>
 
-1455667333 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\main.cpp
+1455724247 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\main.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -10,21 +10,23 @@
 	"Playing.h"
 	"HowtoPlay.h"
 
-1455667252 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\howtoplay.cpp
+1456276117 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\howtoplay.cpp
 	<iostream>
 
 1455639653 c:\users\young\desktop\github programs\game(not github)\txtbasedgame\mainmenu.h
 
-1455667384 c:\users\young\desktop\github programs\game(not github)\txtbasedgame\playing.h
+1455723796 c:\users\young\desktop\github programs\game(not github)\txtbasedgame\playing.h
 
-1455667384 c:\users\young\desktop\github programs\game(not github)\txtbasedgame\howtoplay.h
+1456275582 c:\users\young\desktop\github programs\game(not github)\txtbasedgame\howtoplay.h
 
-1455667884 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\mainmenu.cpp
+1456275268 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\mainmenu.cpp
 	<iostream>
 	<string>
 	"HowtoPlay.h"
 	"Playing.h"
 
-1455667431 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\playing.cpp
+1457578417 source:c:\users\young\desktop\github programs\game(not github)\txtbasedgame\playing.cpp
 	<iostream>
+	<string>
+	<limits>
 

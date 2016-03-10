@@ -1,6 +1,6 @@
 #ifndef PLAYING_H
 #define PLAYING_H
 
-int processPlaying();
+void processPlaying();
 
 #endif // PLAYING_H_INCLUDED

@@ -21,7 +21,6 @@ int main()
 
      case GameStates::Playing:
         processPlaying();
-        break;
 
      case GameStates::HowtoPlay:
         How2play();
