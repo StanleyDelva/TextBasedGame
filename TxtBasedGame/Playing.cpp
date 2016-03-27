@@ -7,10 +7,11 @@ void processPlaying()
 {
     string Name; // value for user's name
     int age = 0; // value for user's age
-
+    int catChoose = 0; // value for choosing category
     cout << "What is your name?" << endl;
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::getline(cin,Name);
+
     cout << "How old are you (in years) " << Name << "?"
     << "\n [1] 3-5" // Toddler
     << "\n [2] 6-8" // Child
@@ -36,12 +37,30 @@ void processPlaying()
         cout << "Wow! You're an adult!" << endl;
         break;
     }
+
     cout << "So what what type of questions  do you want to answer, " << Name << "?"
     << "\n [1] Trivial"
     << "\n [2] Weird"
     << "\n [3] Personal"
     << "\n [4] Misc." << endl;
+    cin >> catChoose;
 
-    cin.ignore();
-    cin.get();
+    switch(catChoose)
+    {
+    case 1:
+        cout << "OK, you're answering Trivial questions now..." << endl;
+        break;
+    case 2:
+        cout << "OK, you're answering Weird questions now..." << endl;
+        break;
+    case 3:
+        cout << "OK, you're answering Personal questions now..." << endl;
+        break;
+    case 4:
+        cout << "OK, you're answering Miscellaneous questions now..." << endl;
+        break;
+    }
+
+cin.ignore();
+cin.get();
 }
