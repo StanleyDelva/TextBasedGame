@@ -52,6 +52,8 @@ void processPlaying()
         break;
     case 2:
         cout << "OK, you're answering Weird questions now..." << endl;
+        void WeirdQs();
+        WeirdQs();
         break;
     case 3:
         cout << "OK, you're answering Personal questions now..." << endl;
@@ -63,4 +65,24 @@ void processPlaying()
 
 cin.ignore();
 cin.get();
+}
+
+void WeirdQs()
+{
+    int choices = 0;
+
+    cout << "Question 1: Do you like chicken?"
+    << "\n [1] Yes"
+    << "\n [2] No" << endl;
+
+    cin >> choices;
+    switch(choices)
+    {
+    case 1:
+        cout << "cool!" << endl;
+        break;
+    case 2:
+        cout << "That's sad." << endl;
+        break;
+    }
 }

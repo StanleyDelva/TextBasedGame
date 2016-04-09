@@ -58,3 +58,26 @@
 	<string>
 	<limits>
 
+1457582077 source:c:\users\young\desktop\github programs\textbasedgame\txtbasedgame\howtoplay.cpp
+	<iostream>
+
+1455727847 source:c:\users\young\desktop\github programs\textbasedgame\txtbasedgame\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainMenu.h"
+	"Playing.h"
+	"HowtoPlay.h"
+
+1455643253 c:\users\young\desktop\github programs\textbasedgame\txtbasedgame\mainmenu.h
+
+1455727396 c:\users\young\desktop\github programs\textbasedgame\txtbasedgame\playing.h
+
+1456279182 c:\users\young\desktop\github programs\textbasedgame\txtbasedgame\howtoplay.h
+
+1456278868 source:c:\users\young\desktop\github programs\textbasedgame\txtbasedgame\mainmenu.cpp
+	<iostream>
+	<string>
+	"HowtoPlay.h"
+	"Playing.h"
+
