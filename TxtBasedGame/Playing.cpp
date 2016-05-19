@@ -69,14 +69,13 @@ cin.get();
 
 void WeirdQs()
 {
-    int choices = 0;
-
+    
     cout << "Question 1: Do you like chicken?"
     << "\n [1] Yes"
     << "\n [2] No" << endl;
-
-    cin >> choices;
-    switch(choices)
+    int Choice1 = 0;
+    cin >> Choice1;
+    switch(Choice1)
     {
     case 1:
         cout << "cool!" << endl;
@@ -86,3 +85,9 @@ void WeirdQs()
         break;
     }
 }
+
+
+
+
+
+

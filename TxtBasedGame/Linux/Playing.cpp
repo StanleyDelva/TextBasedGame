@@ -49,6 +49,8 @@ void processPlaying()
     {
     case 1:
         cout << "OK, you're answering Trivial questions now..." << endl;
+	void TrivialQs();
+	TrivialQs();
         break;
     case 2:
         cout << "OK, you're answering Weird questions now..." << endl;
@@ -57,6 +59,8 @@ void processPlaying()
         break;
     case 3:
         cout << "OK, you're answering Personal questions now..." << endl;
+	void PersonalQs();
+	PersonalQs();
         break;
     case 4:
         cout << "OK, you're answering Miscellaneous questions now..." << endl;
@@ -67,16 +71,23 @@ cin.ignore();
 cin.get();
 }
 
-void WeirdQs()
+
+
+
+
+
+
+
+void WeirdQs() // Function for Weird questions
 {
-    int choices = 0;
+    int Wchoices = 0; // Value for for choosing answers to Weird questions
 
     cout << "Question 1: Do you like chicken?"
     << "\n [1] Yes"
     << "\n [2] No" << endl;
 
-    cin >> choices;
-    switch(choices)
+    cin >> Wchoices;
+    switch(Wchoices)
     {
     case 1:
         cout << "cool!" << endl;
@@ -86,3 +97,51 @@ void WeirdQs()
         break;
     }
 }
+
+
+
+
+
+
+
+void TrivialQs()
+{
+    int Tchoices = 0; // Value for choosing answers to Trivial questions
+
+    cout << "Question !: Which American President was assasinated in the 60s?"
+    << "\n [1] President JFK"
+    << "\n [2] President Lincoln"
+    << "\n [3] President Johnson" << endl;
+
+   cin >> Tchoices;
+  switch(Tchoices)
+  {
+	  case 1:
+	      cout << "Good job!" << endl;
+	     break;
+	  case 2:
+	      cout << "Nope..." << endl;
+	     break;
+	  case 3:
+	      cout << "Nope..." << endl;
+	     break;
+  }	     
+} 
+
+
+
+void PersonalQs()
+{
+	cout << "Question 1: Who was/is your best friend? ";
+		std::string BFF; // string for best friend name
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	    std::getline(cin,BFF);
+	
+	cout << "\nAh, so his/her name is: " << BFF << endl;
+
+}	
+
+
+
+
+
