@@ -10,16 +10,17 @@ int processMainMenu()
 
   cout << "            \n                                   Get a Life...                                                   " << endl; // Title
   cout << "     MAIN MENU      \n [1] How to Play  \n [2] Play \n ";
-  cin >> Userinput;
+  cin >> Userinput; 
   switch (Userinput)
   {
-  case 1:
+  case 1:	  
     How2play();
     break;
 
   case 2:
     processPlaying();
   }
+
   return 0;
 }
 

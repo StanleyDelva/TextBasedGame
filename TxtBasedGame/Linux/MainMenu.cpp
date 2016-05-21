@@ -14,10 +14,12 @@ int processMainMenu()
   switch (Userinput)
   {
   case 1:
+    cout << "\033[2J\033[1;1H";	  
     How2play();
     break;
 
   case 2:
+    cout << "\033[2J\033[1;1H";
     processPlaying();
   }
   return 0;

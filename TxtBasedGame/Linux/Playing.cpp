@@ -69,6 +69,7 @@ void processPlaying()
 
 cin.ignore();
 cin.get();
+cout << "\033[2J\033[1;1H";
 }
 
 
