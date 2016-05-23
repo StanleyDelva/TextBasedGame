@@ -108,25 +108,58 @@ void WeirdQs() // Function for Weird questions
 void TrivialQs()
 {
     int Tchoices = 0; // Value for choosing answers to Trivial questions
+    int Points = 0; // Points earned for correct answers
 
     cout << "Question !: Which American President was assasinated in the 60s?"
-    << "\n [1] President JFK"
-    << "\n [2] President Lincoln"
-    << "\n [3] President Johnson" << endl;
+       << "\n [1] President JFK"
+       << "\n [2] President Lincoln"
+       << "\n [3] President Johnson" << endl;
 
    cin >> Tchoices;
   switch(Tchoices)
   {
 	  case 1:
-	      cout << "Good job!" << endl;
+	      Points = Points + 1;  
+	      cout << "Good job! You now have " << Points << " points." << endl;
 	     break;
 	  case 2:
-	      cout << "Nope..." << endl;
+	     Points = 0;
+	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " points." << endl;
 	     break;
 	  case 3:
-	      cout << "Nope..." << endl;
+	     Points = 0;
+	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " points.";
 	     break;
-  }	     
+  }
+  cin.ignore();
+  cin.get();
+cout << "\033[2J\033[1;1H";
+
+    cout << "Question 2: What is the date of Adolf Hitler's death?"
+       << "\n [1] April 30, 1943"
+       << "\n [2] July 30, 1960"
+       << "\n [3] April 30, 1945" << endl;
+
+    cin >> Tchoices;
+   switch(Tchoices)
+   {
+           case 1:
+              Points = Points - 1;
+	      cout << "Nice try. The correct answer is: April 30, 1945. You now have " << Points << " points." << endl;
+	      break;
+
+	   case 2:
+	      Points = Points - 1;
+	      cout << "Nope. The correct answer is: April 30, 1945. You now have " << Points << " points." << endl;
+	      break;
+
+	   case 3:
+	      Points = Points + 1;
+	      cout << "Good job! You now have " << Points << " points." << endl;
+	      break;
+   }
+
+
 } 
 
 
