@@ -110,7 +110,7 @@ void TrivialQs()
     int Tchoices = 0; // Value for choosing answers to Trivial questions
     int Points = 0; // Points earned for correct answers
 
-    cout << "Question !: Which American President was assasinated in the 60s?"
+    cout << "Question 1: Which American President was assasinated in the 60s?"
        << "\n [1] President JFK"
        << "\n [2] President Lincoln"
        << "\n [3] President Johnson" << endl;
@@ -120,15 +120,15 @@ void TrivialQs()
   {
 	  case 1:
 	      Points = Points + 1;  
-	      cout << "Good job! You now have " << Points << " points." << endl;
+	      cout << "Good job! You now have " << Points << " point(s)." << endl;
 	     break;
 	  case 2:
 	     Points = 0;
-	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " points." << endl;
+	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " point(s)." << endl;
 	     break;
 	  case 3:
 	     Points = 0;
-	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " points.";
+	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " point(s).";
 	     break;
   }
   cin.ignore();
@@ -145,17 +145,17 @@ cout << "\033[2J\033[1;1H";
    {
            case 1:
               Points = Points - 1;
-	      cout << "Nice try. The correct answer is: April 30, 1945. You now have " << Points << " points." << endl;
+	      cout << "Nice try. The correct answer is: April 30, 1945. You now have " << Points << " point(s)." << endl;
 	      break;
 
 	   case 2:
 	      Points = Points - 1;
-	      cout << "Nope. The correct answer is: April 30, 1945. You now have " << Points << " points." << endl;
+	      cout << "Nope. The correct answer is: April 30, 1945. You now have " << Points << " point(s)." << endl;
 	      break;
 
 	   case 3:
 	      Points = Points + 1;
-	      cout << "Good job! You now have " << Points << " points." << endl;
+	      cout << "Good job! You now have " << Points << " point(s)." << endl;
 	      break;
    }
 
