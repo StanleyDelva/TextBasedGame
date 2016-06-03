@@ -94,7 +94,7 @@ void WeirdQs() // Function for Weird questions
         cout << "cool!" << endl;
         break;
     case 2:
-        cout << "That's sad." << endl;
+        cout << "Then get out of here." << endl;
         break;
     }
 }
@@ -123,11 +123,11 @@ void TrivialQs()
 	      cout << "Good job! You now have " << Points << " point(s)." << endl;
 	     break;
 	  case 2:
-	     Points = 0;
+	     Points = Points - 1;
 	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " point(s)." << endl;
 	     break;
 	  case 3:
-	     Points = 0;
+	     Points = Points - 1;
 	      cout << "Nope. The correct answer is: President JFK. You now have " << Points << " point(s).";
 	     break;
   }
@@ -167,7 +167,7 @@ cout << "\033[2J\033[1;1H";
 void PersonalQs()
 {
 	cout << "Question 1: Who was/is your best friend? ";
-		std::string BFF; // string for best friend name
+	    std::string BFF; // string for best friend name
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	    std::getline(cin,BFF);
 	
