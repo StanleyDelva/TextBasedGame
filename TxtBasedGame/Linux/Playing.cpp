@@ -67,9 +67,9 @@ void processPlaying()
         break;
     }
 
-cin.ignore();
-cin.get();
-cout << "\033[2J\033[1;1H";
+   cin.ignore();
+   cin.get();
+   cout << "\033[2J\033[1;1H";
 }
 
 
@@ -133,9 +133,9 @@ void TrivialQs()
   }
   cin.ignore();
   cin.get();
-cout << "\033[2J\033[1;1H";
+  cout << "\033[2J\033[1;1H";
 
-    cout << "Question 2: What is the date of Adolf Hitler's death?"
+  cout << "Question 2: What is the date of Adolf Hitler's death?"
        << "\n [1] April 30, 1943"
        << "\n [2] July 30, 1960"
        << "\n [3] April 30, 1945" << endl;
