@@ -4,7 +4,11 @@
 using namespace std;
 
 void processPlaying()
-{
+{   
+    string Name; 
+    int catChoose;
+    cout << "What is your name? " << endl;
+    cin >> Name;
     cout << "What what type of questions  do you want to answer, " << Name << "?"
     << "\n [1] Trivial"
     << "\n [2] Weird"
