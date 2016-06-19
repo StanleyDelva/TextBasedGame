@@ -140,12 +140,13 @@ void TrivialQs()
 void PersonalQs()
 {
 	cout << "Question 1: Who was/is your best friend? ";
-	    std::string BFF; // string for best friend name
+	    std::string BFF; // string for best friend's name
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	    std::getline(cin,BFF);
 	
 	cout << "\nAh, so his/her name is: " << BFF << endl;
-
+	
+	
 }	
 
 
