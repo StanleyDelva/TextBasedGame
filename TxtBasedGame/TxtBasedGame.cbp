@@ -32,20 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="HowtoPlay.cpp" />
-		<Unit filename="HowtoPlay.h" />
-		<Unit filename="MainMenu.cpp" />
-		<Unit filename="MainMenu.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="Playing.cpp" />
-		<Unit filename="Playing.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
-			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
