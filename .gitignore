@@ -5,6 +5,9 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+# Code::blocks project files
+*.cbp
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
